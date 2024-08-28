@@ -18,7 +18,8 @@ console.log(n);
 let n1 = [12, 23, 34, 45, 56, 67];
 console.log(n1);
 n1.splice(1, 2);
-console.log(n1);
+console.log(n1 +"Hello");
+
 
 // //slice(return between values and assigned to new array)
 let n2 = [12, 23, 34, 45, 56, 67];

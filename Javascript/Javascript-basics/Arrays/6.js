@@ -13,7 +13,7 @@ const persons = [
   { fname: "rohith", lname: "sharma" },
 ];
 let result = persons.map((item) => 
-[item.fname, item.lname].join(" "));
+[item.fname, item.lname].join("."));
 console.log(result);
 let flowers = ["rose", "lilly", "jasmine"];
 let r = flowers.map((f) => {
