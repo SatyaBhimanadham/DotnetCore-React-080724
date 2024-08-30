@@ -41,5 +41,14 @@ namespace XUnitTest
             Assert.Equal(5, list.Count);
            
         }
+        [Fact]
+        public void TestSquare()
+        {
+            //arrange
+            double expected = 81;
+            //actual
+            double actual = Maths.Square(9);
+            Assert.Equal(expected, actual);
+        }
     }
 }
